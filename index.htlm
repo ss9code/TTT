@@ -151,7 +151,7 @@ footer a:hover{color:var(--acc);}
 
 <!-- ナビ -->
 <nav class="nav">
-  <button class="nav-btn on" onclick="show('intro')">🌟 理論</button>
+  <button class="nav-btn on" onclick="show('intro')">🌟 理 論</button>
   <button class="nav-btn" onclick="show('sphere')">🌐 球面検証</button>
   <button class="nav-btn" onclick="show('tetra')">🔷 正四面体</button>
   <button class="nav-btn" onclick="show('proof')">📐 証明</button>
