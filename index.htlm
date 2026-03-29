@@ -485,6 +485,111 @@ footer a:hover{color:var(--acc);}
   </div>
 
   <div class="card">
+    <div class="card-label">STEP 5 — 球面調和関数の幾何学的意味</div>
+    <p style="font-size:12px;color:var(--muted);line-height:1.9;margin-bottom:12px;">
+      球面調和関数 Y<sub>lm</sub> は3次元ラプラス演算子の固有関数です。
+      TTT理論で重要なのは、その<strong style="color:var(--text);">SO(3)回転不変性</strong>——
+      これは正四面体のベクトル総和ゼロと同じ対称群です。
+    </p>
+
+    <!-- l=0,1,2 モード可視化 -->
+    <div style="margin-bottom:14px;">
+      <div style="font-size:10px;color:var(--acc);font-family:'Space Mono',monospace;margin-bottom:8px;">SPHERICAL HARMONICS MODES</div>
+      <div class="g3">
+        <div class="mini-card" style="border-top:2px solid var(--muted);text-align:center;">
+          <canvas id="ylm0" width="120" height="120" style="border-radius:6px;background:var(--bg);"></canvas>
+          <div style="font-size:11px;font-weight:bold;color:var(--muted);margin-top:6px;">l=0（独占モード）</div>
+          <div style="font-size:10px;color:var(--muted);">球対称。m=0 のみ。</div>
+        </div>
+        <div class="mini-card" style="border-top:2px solid var(--acc);text-align:center;">
+          <canvas id="ylm1" width="120" height="120" style="border-radius:6px;background:var(--bg);"></canvas>
+          <div style="font-size:11px;font-weight:bold;color:var(--acc);margin-top:6px;">l=1（双極モード）</div>
+          <div style="font-size:10px;color:var(--acc);">Y₁⁻¹ Y₁⁰ Y₁¹ = 3値のリング</div>
+        </div>
+        <div class="mini-card" style="border-top:2px solid var(--blue);text-align:center;">
+          <canvas id="ylm2" width="120" height="120" style="border-radius:6px;background:var(--bg);"></canvas>
+          <div style="font-size:11px;font-weight:bold;color:var(--blue);margin-top:6px;">l=2（四重極モード）</div>
+          <div style="font-size:10px;color:var(--blue);">5つの関数。d軌道に対応。</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 双極性の説明 -->
+    <div style="background:var(--bg);border-radius:8px;padding:12px;margin-bottom:12px;">
+      <div style="font-size:10px;color:var(--acc);font-family:'Space Mono',monospace;margin-bottom:8px;">DUAL ZERO — 双極性の数学</div>
+      <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;">
+        <div style="font-size:12px;color:var(--muted);line-height:1.9;flex:1;min-width:200px;">
+          Y<sub>l,m</sub> と Y<sub>l,−m</sub> は必ず対になります。<br>
+          これが TTT の「双極性（+∞と−∞がゼロで釣り合う）」の数学的表現です。<br>
+          <strong style="color:var(--text);">m と −m のペアは完全な鏡像対称</strong>を形成します。
+        </div>
+        <div style="font-family:'Space Mono',monospace;font-size:11px;color:#ff8a80;
+          background:var(--sur2);border-radius:6px;padding:10px;text-align:center;min-width:140px;">
+          Y<sub>l,m</sub>* = (−1)<sup>m</sup> Y<sub>l,−m</sub><br>
+          <span style="font-size:9px;color:var(--muted);">複素共役の対称性</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- l=1モードとTTT三値リングの対応 -->
+    <div style="background:rgba(124,106,247,0.06);border:1px solid rgba(124,106,247,0.2);border-radius:8px;padding:12px;">
+      <div style="font-size:10px;color:var(--acc);font-family:'Space Mono',monospace;margin-bottom:8px;">l=1 モード = TTT 三値のリング</div>
+      <div class="g3" style="margin-bottom:8px;">
+        <div style="text-align:center;padding:8px;background:var(--bg);border-radius:6px;">
+          <div style="font-size:14px;color:var(--red);font-weight:bold;">Y₁⁻¹</div>
+          <div style="font-size:10px;color:var(--muted);margin-top:2px;">θ=90°, φ=0°<br>v₁=(1,0,0)</div>
+        </div>
+        <div style="text-align:center;padding:8px;background:var(--bg);border-radius:6px;">
+          <div style="font-size:14px;color:var(--green);font-weight:bold;">Y₁⁰</div>
+          <div style="font-size:10px;color:var(--muted);margin-top:2px;">θ=90°, φ=120°<br>v₂=(−½,√3/2,0)</div>
+        </div>
+        <div style="text-align:center;padding:8px;background:var(--bg);border-radius:6px;">
+          <div style="font-size:14px;color:var(--blue);font-weight:bold;">Y₁⁺¹</div>
+          <div style="font-size:10px;color:var(--muted);margin-top:2px;">θ=90°, φ=240°<br>v₃=(−½,−√3/2,0)</div>
+        </div>
+      </div>
+      <div style="font-family:'Space Mono',monospace;text-align:center;font-size:12px;color:var(--green);">
+        角度=120°　内積=−½　<strong>Σv=0 ✓</strong>
+      </div>
+      <div style="font-size:11px;color:var(--muted);text-align:center;margin-top:6px;">
+        2D三角形（l=1）→ 3D正四面体（テトラ）へ：TTT進化の橋渡し
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-label">STEP 6 — 実世界との対応</div>
+    <table>
+      <tr><th>現象</th><th>球面調和関数</th><th>TTTとの関係</th></tr>
+      <tr>
+        <td>⚗️ 水素原子 s軌道</td>
+        <td style="font-family:monospace;">l=0, Y₀⁰</td>
+        <td>球対称。TTTの「原点」</td>
+      </tr>
+      <tr>
+        <td>⚗️ 水素原子 p軌道</td>
+        <td style="font-family:monospace;">l=1, Y₁ᵐ（3つ）</td>
+        <td><strong style="color:var(--acc);">TTT三値のリング</strong>と完全一致</td>
+      </tr>
+      <tr>
+        <td>💎 炭素 sp³ 混成</td>
+        <td style="font-family:monospace;">l=1 の線形結合</td>
+        <td>正四面体 109.47° = TTT定理</td>
+      </tr>
+      <tr>
+        <td>🌌 宇宙マイクロ波背景放射</td>
+        <td style="font-family:monospace;">l=2〜数千の Y<sub>lm</sub></td>
+        <td>宇宙の揺らぎが球面調和で記述</td>
+      </tr>
+      <tr>
+        <td>🔬 電子スピン</td>
+        <td style="font-family:monospace;">m=±½（半整数）</td>
+        <td>双極性（+と−の対）= TTT双極</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="card">
     <div class="card-label">SYNTHESIS — 宇宙創成の数学モデル</div>
     <div style="display:flex;flex-direction:column;gap:8px;margin-bottom:14px;">
       <div class="cmp-row">
@@ -859,11 +964,106 @@ function buildVision(){
     </div>`).join('');
 }
 
+// ════════════════════════════════
+// 球面調和関数 可視化
+// ════════════════════════════════
+function drawYlm(canvasId, l, col){
+  const cv=document.getElementById(canvasId);if(!cv)return;
+  const ctx=cv.getContext('2d'),W=cv.width,H=cv.height,cx=W/2,cy=H/2,R=Math.min(W,H)/2-6;
+  ctx.clearRect(0,0,W,H);
+
+  // 球輪郭
+  ctx.beginPath();ctx.arc(cx,cy,R,0,TAU);
+  ctx.strokeStyle='rgba(255,255,255,0.08)';ctx.lineWidth=1;ctx.stroke();
+
+  // 球面調和関数 |Y_lm| の極座標プロット（m=0 の実部）
+  const N=200;
+  // l=0: 球
+  // l=1: 双極（8の字×2）
+  // l=2: 四重極（花びら×4）
+  const ylm0=(th)=>{
+    if(l===0)return 0.5;
+    if(l===1)return Math.abs(Math.cos(th));
+    if(l===2)return Math.abs(1.5*Math.cos(th)**2-0.5)*0.8;
+    return 0.5;
+  };
+
+  // ローブを描画（上半分・下半分）
+  [col, 'rgba(255,255,255,0.2)'].forEach((c,half)=>{
+    ctx.beginPath();
+    for(let i=0;i<=N;i++){
+      const th=(i/N)*Math.PI;
+      const r=ylm0(th)*R*0.85;
+      const sign=half===0?1:-1;
+      const x=cx+r*Math.sin(th)*sign;
+      const y=cy-r*Math.cos(th);
+      i===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
+    }
+    ctx.strokeStyle=c;ctx.lineWidth=l===0?1.5:1.5;
+    if(l===0){ctx.arc(cx,cy,R*0.42,0,TAU);}
+    ctx.stroke();
+
+    if(l>0){
+      // ローブ塗り
+      ctx.beginPath();
+      for(let i=0;i<=N;i++){
+        const th=(i/N)*Math.PI;
+        const r=ylm0(th)*R*0.85;
+        const x=cx+r*Math.sin(th)*sign;
+        const y=cy-r*Math.cos(th);
+        i===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
+      }
+      ctx.closePath();
+      const g=ctx.createRadialGradient(cx,cy,0,cx,cy,R);
+      g.addColorStop(0,c.replace(')',',0.3)').replace('rgba','rgba'));
+      g.addColorStop(1,c.replace(')',',0)').replace('rgba','rgba'));
+      ctx.fillStyle=half===0?c+'33':'rgba(255,255,255,0.05)';
+      ctx.fill();
+    }
+  });
+
+  // l=0 は単純な円
+  if(l===0){
+    ctx.beginPath();ctx.arc(cx,cy,R*0.42,0,TAU);
+    ctx.strokeStyle=col;ctx.lineWidth=2;ctx.stroke();
+    ctx.beginPath();ctx.arc(cx,cy,R*0.42,0,TAU);
+    ctx.fillStyle=col+'22';ctx.fill();
+  }
+
+  // l=2 は花びら4枚
+  if(l===2){
+    [0,90,180,270].forEach(deg=>{
+      const a=deg*DEG;
+      ctx.beginPath();
+      for(let i=0;i<=N;i++){
+        const th=(i/N)*TAU;
+        const r=Math.abs(Math.cos(2*th))*R*0.7;
+        const x=cx+r*Math.cos(th+a);
+        const y=cy+r*Math.sin(th+a);
+        i===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
+      }
+      ctx.strokeStyle=col;ctx.lineWidth=1.5;ctx.stroke();
+      ctx.fillStyle=col+'18';ctx.fill();
+    });
+  }
+
+  // ラベル
+  ctx.fillStyle='rgba(255,255,255,0.3)';ctx.font='9px monospace';ctx.textAlign='center';
+  ctx.fillText(`l=${l}`,cx,H-4);
+}
+
+function drawAllYlm(){
+  drawYlm('ylm0',0,'rgba(150,150,150,0.8)');
+  drawYlm('ylm1',1,'rgba(124,106,247,0.9)');
+  drawYlm('ylm2',2,'rgba(74,158,255,0.9)');
+}
+
 // ── 初期化 ──
 window.onload=()=>{
   buildSphereSliders();drawSphere();
   buildFaceGrid();drawTetra();
+  drawAllYlm();
 };
 </script>
 </body>
-</html><!DOCTYPE html>
+</html>
