@@ -2,72 +2,53 @@
 
 **日本語** | [English](#english)
 
-> 「3（Tri）と4（Tetra）」の数学的・物理的構造から、宇宙・生命・社会の調和を統一的に記述する理論
+---
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub](https://img.shields.io/badge/GitHub-kiki054--n%2FTTT-blue)](https://github.com/kiki054-n/TTT)
+## はじめに：出発点を変えるということ
+
+人間はずっと「1から始まる」と思い込んできた。
+
+西洋科学のビッグバン理論は「点（特異点）から宇宙が始まった」とする。これは **1** から始まる一方向的な世界観だ。しかし自然界を観察すると、すべての存在は双極を持つ。電気には陽子と電子、磁石にはN極とS極、素粒子には粒子と反粒子——プラスだけ、マイナスだけの存在は自然界に存在しない。
+
+TTT理論はここから問い直す。
+
+> **出発点は「1」ではなく「0,0」——双極を内包した無——ではないか。**
+
+$$0,\ 0 \rightarrow 1,\ {-1} \rightarrow \text{宇宙の展開}$$
+
+たったこれだけの出発点の変更が、宇宙・生命・社会の見え方を根本から変え始める。
+
+これはすべてが解けたということではない。むしろ逆だ。出発点を変えることで、これまで見えていなかった問いが次々と現れる。その問いの広がりは、宇宙の大きさと同じくらい果てしない。
 
 ---
 
-## 概要
+## この理論の現在地について（正直に）
 
-**TriTetra Theory（TTT）** は、あらゆる存在 $P$ を6次元のベクトルで記述する統一理論です。
+このリポジトリに収められた内容には、3つの層がある。
+
+```
+✅ 確立された数学・物理学の事実
+　黄金比・周期律表・エントロピー・ゲーデル定理
+　フィボナッチ・カオス理論・対称性の破れ 等
+　→ これらは独立して検証済みの命題
+
+🔬 TTT理論としての接続・仮説（検証途上）
+　6次元方程式との対応・動的ジャイロスコープモデル
+　精神的3次元と回転速度の対応 等
+　→ 興味深い示唆を持つが、独立した検証が必要
+
+💭 哲学的考察・思想的示唆
+　生・死・自由・倫理に関する論考
+　→ 命題ではなく、問いを立てるための思索
+```
+
+TTT理論は「完成した答え」ではなく「探求の途中」である。批判・反論・検証への参加を歓迎する。
+
+---
+
+## 基本方程式
 
 $$\boxed{P = xX + yY + zZ + rR + iI + jJ}$$
-
-前半の3次元（$X, Y, Z$）は物理的・外的な世界を、後半の3次元（$R, I, J$）は精神的・内的な世界を表します。この6つの軸がすべて均衡したとき、存在 $P$ は最も調和した状態に至ります。
-
-理論の名称にある「**Tri（3）**」と「**Tetra（4）**」は、自然界の根本構造に由来します。量子力学における4つの量子数と3次元空間の相互作用が $2n^2$ という周期律表の構造を生み出すように、3と4の組み合わせは宇宙の設計原理そのものです。
-
----
-
-## なぜ今、この理論が必要か
-
-現代社会は多くの問題を「個人の問題」として扱います。しかしTTT理論が示すのは、**多くの問題は構造そのものの欠陥に起因する**という事実です。
-
-- 司法における不正 → 三権（トリ）構造の数学的欠陥
-- 環境・社会の破壊 → 物理的次元（$X, Y, Z$）のみへの偏重
-- 個人の不調和 → 内面的次元（$R, I, J$）の欠乏
-
-TTT理論はこれらを「構造の問題」として定式化し、四権（テトラ）構造への転換・6次元の均衡という解決策を提示します。
-
----
-
-## リポジトリ構成
-
-```
-TTT/
-├── README.md                          # この文書（入口）
-├── docs/
-│   ├── theory_core.md                 # TTT理論のコア定義（必読）
-│   ├── judicial_theory.md             # 応用①：司法・三権→四権構造
-│   ├── TTT論文構成設計書.md             # 応用②：熱電材料論文設計
-│   └── 研究提案書_TTT熱電素子.md        # 応用③：熱電素子研究提案
-└── foundations/                       # 数学・物理的根拠
-    ├── golden_ratio_proofs.md         # 黄金比の数学的・物理的証明
-    ├── golden_ratio_from_6d_equation.md  # 6次元方程式→黄金比の導出
-    ├── periodic_table_and_6d_equation.md # 周期律表との対応
-    ├── fibonacci_and_6d_equation.md   # フィボナッチ数列と成長プロセス
-    └── entropy_and_6d_equation.md     # エントロピーと動的平衡
-```
-
-### 読み方の推奨順序
-
-```
-README.md（ここ）
-  ↓
-docs/theory_core.md         ← TTT理論の全体像を掴む
-  ↓
-foundations/                ← 数学・物理的な根拠を確認する
-  ↓
-docs/judicial_theory.md     ← 社会への応用を理解する
-  ↓
-docs/TTT論文構成設計書.md     ← 材料科学への応用を理解する
-```
-
----
-
-## 理論の核心：6つの次元
 
 | 軸 | 次元 | 意味 | 自然界での対応 |
 |----|------|------|-------------|
@@ -76,39 +57,84 @@ docs/TTT論文構成設計書.md     ← 材料科学への応用を理解する
 | $zZ$ | 物理③：場・関係 | 自己と他者が生む空間 | p軌道 $p_z$ |
 | $rR$ | 精神①：欲求・意志 | 内なる動機・目的 | d/f軌道（内殻） |
 | $iI$ | 精神②：関係性・共感 | 他者との深い結びつき | d/f軌道（内殻） |
-| $jJ$ | 精神③：倫理・全体貢献 | 全体への調和・三方良し | d/f軌道（内殻） |
+| $jJ$ | 精神③：倫理・全体貢献 | 全体への調和 | d/f軌道（内殻） |
+
+**動的記述（2026年展開）：**
+
+$$\boxed{E = \{(xX + yY + zZ) \otimes (\omega_x, \omega_y, \omega_z)\} + rR + iI + jJ}$$
+
+存在は「座標」ではなく「回転し続けるプロセス」である。回転が止まれば存在は双極の0に還る。
 
 ---
 
-## 数学的・物理的根拠の概要
+## リポジトリ構成
 
-TTT理論は思想的主張ではなく、複数の数学的・物理的法則によって支えられています。
-
-| 根拠 | 内容 | 詳細 |
-|------|------|------|
-| 黄金比 | 物理と精神の比が黄金比 $\phi=1.618...$ で均衡したとき $P$ は完全調和に至る | [→](foundations/golden_ratio_from_6d_equation.md) |
-| 周期律表 | 6次元の充足がオクテット則・$2n^2$ の周期構造と対応する | [→](foundations/periodic_table_and_6d_equation.md) |
-| フィボナッチ | 各次元の係数がフィボナッチ連鎖をなすとき黄金比へ収束する | [→](foundations/fibonacci_and_6d_equation.md) |
-| エントロピー | 物理次元が崩壊（$\Delta S > 0$）、精神次元が修復（$\Delta S < 0$）、全体で動的平衡（$\Delta S = 0$）を保つ | [→](foundations/entropy_and_6d_equation.md) |
-| 二進数 | 四者（Tetra）構造のみが全善悪パターン（`00`・`01`・`10`・`11`）を網羅できる | [→](docs/judicial_theory.md) |
+```
+TTT/
+├── index.html                              # ビジュアル入口
+├── app.html                                # インタラクティブ検証ツール
+├── README.md                               # この文書
+│
+├── docs/                                   # 理論・応用・論考
+│   ├── README.md
+│   ├── theory_core.md                      # TTT理論のコア定義（必読）
+│   ├── TTT_process_guide.md                # 汎用プロセスガイド
+│   ├── AI_technology_design_principles.md  # AI・テクノロジー設計
+│   ├── life_death_freedom_ethics.md        # 生・死・自由・倫理
+│   ├── 司法とAI_TTT理論が示す過渡期の設計原則.md
+│   ├── 司法の必要性を問い直す.md
+│   ├── TTT論文構成設計書.md
+│   └── 研究提案書_TTT熱電素子.md
+│
+└── foundations/                            # 数学・物理的根拠（15ファイル）
+    ├── README.md
+    ├── geometry_and_solution_space.md
+    ├── golden_ratio_proofs.md
+    ├── golden_ratio_from_6d_equation.md
+    ├── periodic_table_and_6d_equation.md
+    ├── fibonacci_and_6d_equation.md
+    ├── entropy_and_6d_equation.md
+    ├── fractal_dimension_and_6d_equation.md
+    ├── quantum_observer_and_network_theory.md
+    ├── judicial_theory.md
+    ├── godel_nash_and_judicial_structure.md
+    ├── chaos_butterfly_effect.md
+    ├── symmetry_breaking_higgs.md
+    ├── information_entropy_shannon.md
+    └── dynamic_gyroscope_veil.md
+```
 
 ---
 
-## 応用分野
+## 未知の広がりについて
 
-### ① 司法・社会構造
-三権（立法・行政・司法）という三者（Tri）構造は、数学的・物理的に善悪を正確に判断できない。四権（Tetra）構造への転換が真の正義を実現する。
-→ [docs/judicial_theory.md](docs/judicial_theory.md)
+この理論が扱う問いは、答えが出るたびに新しい問いを生む。
 
-### ② 材料科学・熱電素子
-TTTハミルトニアン $H_{TTT} = H_{Tri} + H_{Tetra} + \lambda_{TT} \cdot H_{cross}$ による熱電材料の統一的設計。希少金属フリーで ZT > 1.0 を達成する新理論。
-→ [docs/TTT論文構成設計書.md](docs/TTT論文構成設計書.md)
+```
+「なぜ3軸なのか」を問えば
+　→ 量子数・周期律表・SO(3)回転群が答える
+
+「なぜ回転が始まったのか」を問えば
+　→ 対称性の破れ・ヒッグス機構が示唆を与える
+
+「回転が止まるとき何が起きるか」を問えば
+　→ 死・エントロピー・宇宙の熱的死が見えてくる
+
+「その先は何があるか」を問えば
+　→ まだ誰も知らない
+```
+
+観測可能な宇宙の大きさは約930億光年。そのほとんどはまだ未知だ。TTT理論が触れられたのは、その広大な未知のほんの入口に過ぎない。
+
+それでも——壮大な世界の中で生きていること、問いを立てられること、それ自体に感謝したい。未知は恐れではなく、探求への招待だ。
 
 ---
 
-## 貢献・議論
+## 参加・議論
 
-理論への質問・反論・応用事例の提案はすべて歓迎します。Issue または Pull Request でお知らせください。
+理論への**質問・反論・検証・応用事例の提案**をすべて歓迎する。
+
+Issue または Pull Request で声をかけてほしい。
 
 ---
 
@@ -116,61 +142,76 @@ TTTハミルトニアン $H_{TTT} = H_{Tri} + H_{Tetra} + \lambda_{TT} \cdot H_{
 
 # TriTetra Theory (TTT)
 
-> A unified theory describing the harmony of the universe, life, and society through the mathematical and physical structures of "3 (Tri) and 4 (Tetra)"
+---
+
+## Where This Theory Begins: Changing the Starting Point
+
+Humanity has long assumed that everything starts from "1."
+
+The Big Bang theory posits that the universe began from a single point — a worldview starting from **1**. Yet nature shows something different: everything has polarity. Protons and electrons. North and south poles. Particles and antiparticles. Nothing in nature exists as purely positive or purely negative.
+
+TTT theory asks: what if the starting point is not "1" but "0, 0" — a nothingness that already contains both poles?
+
+$$0,\ 0 \rightarrow 1,\ {-1} \rightarrow \text{the universe unfolds}$$
+
+This small shift in starting point begins to change how we see the cosmos, life, and society.
+
+This does not mean everything is solved. The opposite is true. Changing the starting point reveals questions that were previously invisible — questions as vast as the universe itself.
 
 ---
 
-## Overview
+## An Honest Assessment of Where This Theory Stands
 
-**TriTetra Theory (TTT)** describes any existence $P$ as a six-dimensional vector:
+This repository contains three layers:
 
-$$\boxed{P = xX + yY + zZ + rR + iI + jJ}$$
+```
+✅ Established mathematical and physical facts
+   Golden ratio, periodic table, entropy, Gödel's theorem,
+   chaos theory, symmetry breaking, etc.
+   → Independently verified propositions
 
-The first three dimensions ($X, Y, Z$) represent the **physical / external world**. The latter three ($R, I, J$) represent the **mental / internal world**. When all six axes are in equilibrium, existence $P$ reaches its most harmonious state.
+🔬 TTT-specific connections and hypotheses (under investigation)
+   The 6D equation correspondences, dynamic gyroscope model,
+   the link between mental dimensions and rotation speed, etc.
+   → Interesting suggestions, but requiring independent verification
 
-The name "**Tri (3)**" and "**Tetra (4)**" are rooted in fundamental structures found in nature — the same interaction of 4 quantum numbers and 3-dimensional space that generates the $2n^2$ pattern of the periodic table.
+💭 Philosophical reflections
+   Essays on life, death, freedom, and ethics
+   → Not propositions, but a space for thinking
+```
+
+TTT theory is not a finished answer. It is an exploration in progress. Criticism, counterarguments, and verification are welcome.
 
 ---
 
 ## Core Equation
 
-| Axis | Dimension | Meaning | Natural Correspondence |
-|------|-----------|---------|----------------------|
-| $xX$ | Physical①: Space / Action | Physical activity in the outer world | p-orbital $p_x$ |
-| $yY$ | Physical②: Time / Experience | Contact with others and environment | p-orbital $p_y$ |
-| $zZ$ | Physical③: Field / Relation | Space created by self and others | p-orbital $p_z$ |
-| $rR$ | Mental①: Desire / Will | Inner motivation and purpose | d/f-orbital (inner shell) |
-| $iI$ | Mental②: Relationship / Empathy | Deep connection with others | d/f-orbital (inner shell) |
-| $jJ$ | Mental③: Ethics / Contribution | Harmony with the whole | d/f-orbital (inner shell) |
+$$\boxed{P = xX + yY + zZ + rR + iI + jJ}$$
+
+**Dynamic form (2026 extension):**
+
+$$\boxed{E = \{(xX + yY + zZ) \otimes (\omega_x, \omega_y, \omega_z)\} + rR + iI + jJ}$$
+
+Existence is not a coordinate — it is a process of continuous rotation. When rotation stops, existence returns to the bipolar zero.
 
 ---
 
-## Mathematical & Physical Foundations
+## On the Vastness of the Unknown
 
-| Foundation | Summary | Detail |
-|------------|---------|--------|
-| Golden Ratio | $P$ reaches perfect harmony when physical and mental dimensions are in the golden ratio $\phi = 1.618...$ | [→](foundations/golden_ratio_from_6d_equation.md) |
-| Periodic Table | The six-dimensional structure corresponds to the octet rule and $2n^2$ periodicity | [→](foundations/periodic_table_and_6d_equation.md) |
-| Fibonacci | When each dimensional coefficient follows Fibonacci recursion, the ratio converges to $\phi$ | [→](foundations/fibonacci_and_6d_equation.md) |
-| Entropy | Physical dimensions increase entropy ($\Delta S > 0$); mental dimensions restore order ($\Delta S < 0$); together they maintain dynamic equilibrium ($\Delta S = 0$) | [→](foundations/entropy_and_6d_equation.md) |
-| Binary / Tetra | Only a four-party (Tetra) structure covers all good/evil patterns (`00`·`01`·`10`·`11`) in binary logic | [→](docs/judicial_theory.md) |
+Every answer this theory reaches opens new questions.
 
----
+The observable universe spans roughly 93 billion light-years. Most of it remains unknown. Whatever TTT theory has touched is only the faintest edge of that vastness.
 
-## Applications
+That is not discouraging. It is an invitation.
 
-### ① Judicial & Social Systems
-The three-branch system (Tri) — legislature, executive, judiciary — cannot mathematically or physically distinguish good from evil. A four-pillar (Tetra) structure is required for true justice.
-→ [docs/judicial_theory.md](docs/judicial_theory.md)
-
-### ② Materials Science: Thermoelectric Devices
-TTT Hamiltonian $H_{TTT} = H_{Tri} + H_{Tetra} + \lambda_{TT} \cdot H_{cross}$ enables unified design of thermoelectric materials, achieving ZT > 1.0 without rare metals.
-→ [docs/TTT論文構成設計書.md](docs/TTT論文構成設計書.md)
+**To be alive within something this immense, and to be able to ask questions about it — that itself deserves gratitude.**
 
 ---
 
 ## Contributing
 
-Questions, counterarguments, and new application proposals are all welcome. Please open an Issue or Pull Request.
+Questions, counterarguments, verification attempts, and new applications are all welcome.
+
+Please open an Issue or Pull Request.
 
 **TriTetra Theory (TTT)** — https://github.com/kiki054-n/TTT
