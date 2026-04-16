@@ -51,8 +51,14 @@ foundations/
 ├── fractal_dimension_and_6d_equation.md
 │   　　↓ 存在 P の真の姿：整数を超えた無限の深さ
 │
-└── quantum_observer_and_network_theory.md ★ 最後に読む
-    　　↓ 意識が現実を確定させる：物理と精神の交差点
+├── quantum_observer_and_network_theory.md
+│   　　↓ 意識が現実を確定させる：物理と精神の交差点
+│
+├── judicial_theory.md                    ★ 社会への適用
+│   　　↓ 三権構造の数学的・物理的欠陥の証明
+│
+└── godel_nash_and_judicial_structure.md  ★ 最後に読む
+    　　↓ ゲーデル・ナッシュによる司法構造の純粋数学的証明
 ```
 
 ---
@@ -176,6 +182,46 @@ $$D = \frac{\log N}{\log S}$$
 
 ---
 
+### 9. `judicial_theory.md`
+**トリテトラ理論 — 三権構造の数学的・物理的欠陥と四権構造による解決**
+
+三権（立法・行政・司法）という閉じた三者（Tri）構造が、天秤の原理・二進数・物理法則（引力・反発）によって数学的・物理的に善悪を正確に判断できないことを証明する。四権（Tetra）構造への転換を提唱する。
+
+```
+証明の柱：
+・天秤の偽装メカニズム（悪が善に偽装できる構造的欠陥）
+・物理法則による悪の中心への引き寄せ
+・二進数の全パターン（00・01・10・11）を三者では網羅できない
+・日本の四柱の神との対応
+```
+
+適用場面：社会制度・司法改革・AI司法設計の根拠
+
+---
+
+### 10. `godel_nash_and_judicial_structure.md`
+**ゲーデルの不完全性定理・ナッシュ均衡と6次元方程式**
+
+`judicial_theory.md` の証明をさらに純粋数学の視点から深める。
+
+```
+二つの数学的証明：
+
+① ゲーデルの第二不完全性定理
+　三権構造（閉じた公理系）は自らの公正さを
+　自らでは証明できない → 第四権（外部参照系）が数学的必然
+
+② ナッシュ均衡（ゲーム理論）
+　三権構造の安定均衡 = 「全員悪」
+　四権構造の安定均衡 = 「全員善」（支配戦略均衡）
+```
+
+さらにナッシュ均衡の「全員善」が黄金比的均衡（$\phi \approx 1.618$）と対応することを示し、社会制度論と宇宙の数学的均衡を接続する。
+
+適用場面：三権構造の欠陥の数学的証明・四権構造の必然性の論証・社会設計への応用
+
+---
+
 ## 推奨読み順
 
 ### 理論を初めて学ぶ場合
@@ -189,6 +235,8 @@ $$D = \frac{\log N}{\log S}$$
 6. golden_ratio_from_6d_equation.md      （方程式との完全な接続を理解する）
 7. fractal_dimension_and_6d_equation.md  （存在の真の深さを理解する）
 8. quantum_observer_and_network_theory.md（意識と現実の接続を理解する）
+9. judicial_theory.md                    （社会制度への適用を理解する）
+10. godel_nash_and_judicial_structure.md  （純粋数学による最終証明）
 ```
 
 ### 特定の目的がある場合
@@ -202,6 +250,8 @@ $$D = \frac{\log N}{\log S}$$
 | 自然科学的根拠を示したい | `periodic_table_and_6d_equation.md` |
 | 存在の深さ・ミクロ↔マクロを説明したい | `fractal_dimension_and_6d_equation.md` |
 | 意識・AI・教育への応用を考えたい | `quantum_observer_and_network_theory.md` |
+| 社会制度・司法改革を考えたい | `judicial_theory.md` |
+| 三権の欠陥を純粋数学で証明したい | `godel_nash_and_judicial_structure.md` |
 | すべての根拠を一覧したい | このファイル（README.md） |
 
 ---
@@ -229,11 +279,18 @@ periodic_table
 　　　　　↓
 fractal_dimension
 「存在 P はフラクタル次元に宿る」
-「ミクロ＝マクロの自己相似性」
 　　　　　↓
 quantum_observer_and_network_theory
 「意識が現実を確定させる」
-「脳内ネットワークの再編成」
+　　　　　↓
+judicial_theory
+「三権構造の数学的・物理的欠陥」
+「四権構造への転換」
+　　　　　↓
+godel_nash_and_judicial_structure
+「ゲーデル：三権は自己証明不能」
+「ナッシュ：四権のみが全員善均衡」
+「ナッシュ均衡 ⟺ 黄金比的均衡」
 　　　　　↓
 　TTT理論の数学的・物理的基盤　完成
 　P = xX + yY + zZ + rR + iI + jJ
