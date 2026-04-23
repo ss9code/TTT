@@ -4,6 +4,13 @@
 
 ---
 
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19704117.svg)](https://doi.org/10.5281/zenodo.19704117)
+[![Author](https://img.shields.io/badge/Author-川上真潔-f39c12?style=for-the-badge)](https://orcid.org/0009-0009-2972-6511)
+
+---
+
+
 ## はじめに：出発点を変えるということ
 
 人間はずっと「1から始まる」と思い込んできた。
