@@ -292,6 +292,21 @@ ttt/
 
 ---
 
+## サブ理論・応用リポジトリ
+
+| リポジトリ | 内容 | スケール |
+|---|---|---|
+| [**TTT-WSP**](https://github.com/kiki054-n/tttwsp) | Si+S+P sp³格子のDFT計算・水素触媒 | 量子化学（Å） |
+| [**TTT-Fusion**](https://github.com/kiki054-n/ttt-fusion) | 波動干渉による00ポテンシャル・核融合促進理論 | 核物理（fm） |
+| [**TTI-SCAN**](https://github.com/kiki054-n/tti-scan) | 6軸分析ツール（社会・地政学・法制度への応用） | 社会・制度 |
+
+> **共通原理：正四面体の 00構造（ベクトル総和 = 0）が、スケールを超えて物理・社会現象を制御する。**
+>
+> TTT-WSP（触媒：水素生成） ↔ TTT-Fusion（核融合：水素プラズマ→He-4）  
+> ——水素エネルギーの両端を、同じ幾何原理が繋いでいる。
+
+---
+
 ## 問いかけ
 
 この理論は答えを押しつけない。
@@ -381,6 +396,20 @@ The observable universe spans roughly 93 billion light-years. Most of it remains
 That is not discouraging. It is an invitation.
 
 **To be alive within something this immense, and to be able to ask questions about it — that itself deserves gratitude.**
+
+---
+
+## Sub-Theories and Applied Repositories
+
+| Repository | Content | Scale |
+|---|---|---|
+| [**TTT-WSP**](https://github.com/kiki054-n/tttwsp) | DFT calculations on Si+S+P sp³ lattice / hydrogen catalysis | Quantum chemistry (Å) |
+| [**TTT-Fusion**](https://github.com/kiki054-n/ttt-fusion) | Wave interference → 00-potential / fusion tunnel probability enhancement | Nuclear physics (fm) |
+| [**TTI-SCAN**](https://github.com/kiki054-n/tti-scan) | 6-axis analytical tool for civic, geopolitical, and legal structures | Social / institutional |
+
+> **Shared principle: The tetrahedral 00-structure (vector sum = 0) governs phenomena across scales.**  
+> TTT-WSP (catalyst: hydrogen generation) ↔ TTT-Fusion (fusion: hydrogen plasma → He-4)  
+> — The same geometric principle connects both ends of the hydrogen energy chain.
 
 ---
 
