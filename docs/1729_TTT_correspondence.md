@@ -1,7 +1,7 @@
 # 1729とTTT理論の数論的対応
 ## The Number 1729 and Its Structural Correspondence with TTT Theory
 
-**Author:** 川上真潔 (Kawakami Masakiyo)  
+**Author:** 川上真潔 (Kawakami Naoyuki)  
 **Repository:** kiki054-n/TTT  
 **Date:** 2026-06-06  
 **Related DOI:** 10.5281/zenodo.19704117
