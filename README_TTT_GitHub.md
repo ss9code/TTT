@@ -170,7 +170,7 @@ TTT grew from the conviction that a single principle of complementarity underlie
   version      = {2.0},
   publisher    = {Zenodo},
   doi          = {10.5281/zenodo.19704117},
-  url          = {https://doi.org/10.5281/zenodo.19704117},
+  url          = {https://doi.org/10.5281/zenodo.20605467},
   note         = {Preprint. CC BY 4.0.}
 }
 ```
