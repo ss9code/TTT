@@ -153,7 +153,7 @@ TTT grew from the conviction that a single principle of complementarity underlie
 
 - ORCID: [0009-0009-2972-6511](https://orcid.org/0009-0009-2972-6511)
 - GitHub: [@kiki054-n](https://github.com/kiki054-n)
-- Zenodo: [zenodo.org/search?q=kawakami+TTT](https://zenodo.org/search?q=kawakami+TTT)
+- Zenodo: [zenodo.org/search?q=kawakami+TTT](https://zenodo.org/search?q=kawakami+TTT+Tri-Tetra Theory+Bipolar Zero)
 - note: [note.com/team_shiojiri](https://note.com/team_shiojiri)
 
 ---
